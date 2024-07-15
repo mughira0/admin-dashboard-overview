@@ -1,0 +1,23 @@
+.welcomeDiv {
+  background-image: url("../../Assets/Images/placeHolder.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  border-radius: 10px;
+
+  height: 280px;
+  color: white;
+  font-weight: bold;
+}
+.welcomeDiv p {
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+.calender {
+}
+
+.chartDiv {
+  margin-top: 20px;
+}

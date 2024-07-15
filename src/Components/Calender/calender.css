@@ -1,0 +1,37 @@
+.calendar__day-reservation {
+  /* background-color: #ff9a68 !important; */
+  background-color: #fff1d4 !important;
+  border-radius: 5px !important;
+}
+.calendar__day-today {
+  background-color: #ff9a68 !important;
+  border: 0 !important;
+  z-index: 10 !important;
+  border-radius: 5px !important;
+}
+
+.calendar__day-container[data-reserved="true"] div {
+  color: #ff9a68 !important;
+}
+.calendar__day-selection {
+  background-color: #cef1e5 !important;
+  z-index: 10;
+}
+.calendar__day-container[data-selected] {
+  color: #4e57a3 !important;
+}
+.calendar__month-container {
+  justify-content: flex-end !important;
+}
+.reservation-Div {
+  padding-block: 20px;
+  position: relative;
+}
+.reservation-headingDiv {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+}
+.reservation-headingDiv h3 {
+  font-size: 19px;
+}

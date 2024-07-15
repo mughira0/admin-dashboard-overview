@@ -1,0 +1,23 @@
+/* src/ProgressBar.module.css */
+.progressContainer {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.progressBar {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  background-color: #e0e0df;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progressSegment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
